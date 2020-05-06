@@ -1,5 +1,5 @@
 {
-    "name": "botman/botman",
+    "name": "tandrezone/botman",
     "license": "MIT",
     "description": "Create messaging bots in PHP with ease.",
     "keywords": [
@@ -41,12 +41,12 @@
     },
     "autoload": {
         "psr-4": {
-            "BotMan\\BotMan\\": "src/"
+            "tandrezone\\BotMan\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "BotMan\\BotMan\\Tests\\": "tests/"
+            "tandrezone\\BotMan\\Tests\\": "tests/"
         }
     },
     "extra": {
@@ -55,10 +55,10 @@
         },
         "laravel": {
             "providers": [
-                "BotMan\\BotMan\\BotManServiceProvider"
+                "tandrezone\\BotMan\\BotManServiceProvider"
             ],
             "aliases": {
-                "BotMan": "BotMan\\BotMan\\Facades\\BotMan"
+                "BotMan": "tandrezone\\BotMan\\Facades\\BotMan"
             }
         }
     },
